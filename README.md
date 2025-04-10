@@ -1,6 +1,7 @@
-# Biomedical Text Generation using Modern NLP Techniques
+# Utilizing State-of-the-Art Methods for Biomedical Text Generation
 
-This repository contains the code and resources for a final-year thesis project at the University of Patras, Department of Computer Engineering and Informatics.  
+This repository contains the code and resources for a final-year master thesis project at the University of Patras, 
+Department of Computer Engineering and Informatics.
 The aim is to build a biomedical text generation system using modern Natural Language Processing (NLP) techniques such as BERT, T5, and BioGPT.
 
 ## 🧠 Project Objectives
