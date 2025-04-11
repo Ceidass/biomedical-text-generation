@@ -1,0 +1,11 @@
+
+Mounted at /content/drive
+
+Number of abstracts loaded: 18894
+
+100%|██████████| 18894/18894 [00:03<00:00, 5802.92it/s]
+
+Number of clear entries: 18894
+
+
+Saved 18894 entries in /content/drive/MyDrive/biomedical_text_generation/data/cleaned/all_abstracts_cleaned.json
