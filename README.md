@@ -41,8 +41,9 @@ biomedical-text-generation/
 ├── configs/          # Training configuration files
 │   └── t5_config.yaml
 │
-├── outputs/          # Generated text, logs, and visualizations
-│   └── evaluation_results/
+├── outputs/                          # Generated text, logs, and visualizations
+│   ├── 01_data_collection.txt        # Log file for PubMed data collection
+│   └── evaluation_results/          # Results of final evaluation
 │
 ├── docs/             # Diagrams, documentation, report sections
 │   └── architecture_diagram.png
@@ -51,6 +52,7 @@ biomedical-text-generation/
 ├── requirements.txt  # Python dependencies
 ├── .gitignore        # Files and folders to exclude from Git
 └── LICENSE           # Project license
+
 ```
 
 
