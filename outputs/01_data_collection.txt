@@ -1,0 +1,41 @@
+Mounted at /content/drive
+Searching for: cancer
+A number of 904 abstracts have been saved for: cancer
+Searching for: breast cancer
+A number of 927 abstracts have been saved for: breast cancer
+Searching for: lung cancer
+A number of 918 abstracts have been saved for: lung cancer
+Searching for: prostate cancer
+A number of 919 abstracts have been saved for: prostate cancer
+Searching for: colorectal cancer
+A number of 934 abstracts have been saved for: colorectal cancer
+Searching for: pancreatic cancer
+A number of 942 abstracts have been saved for: pancreatic cancer
+Searching for: ovarian cancer
+A number of 935 abstracts have been saved for: ovarian cancer
+Searching for: leukemia
+A number of 887 abstracts have been saved for: leukemia
+Searching for: melanoma
+A number of 883 abstracts have been saved for: melanoma
+Searching for: lymphoma
+A number of 889 abstracts have been saved for: lymphoma
+Searching for: immunotherapy
+A number of 941 abstracts have been saved for: immunotherapy
+Searching for: radiotherapy
+A number of 967 abstracts have been saved for: radiotherapy
+Searching for: chemotherapy
+A number of 988 abstracts have been saved for: chemotherapy
+Searching for: metastasis
+A number of 973 abstracts have been saved for: metastasis
+Searching for: tumor microenvironment
+A number of 992 abstracts have been saved for: tumor microenvironment
+Searching for: oncogenes
+A number of 968 abstracts have been saved for: oncogenes
+Searching for: tumor suppressor genes
+A number of 997 abstracts have been saved for: tumor suppressor genes
+Searching for: cancer biomarkers
+A number of 986 abstracts have been saved for: cancer biomarkers
+Searching for: precision oncology
+A number of 952 abstracts have been saved for: precision oncology
+Searching for: targeted therapy
+A number of 992 abstracts have been saved for: targeted therapy
