@@ -29,7 +29,7 @@ biomedical-text-generation/
 │   └── 05_evaluation.ipynb
 │
 ├── scripts/          # Modular Python scripts
-│   ├── collect_data.py
+│   ├── 01_data_collection.py
 │   ├── clean_data.py
 │   ├── build_datasets.py
 │   ├── train_model.py
