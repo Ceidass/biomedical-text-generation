@@ -80,7 +80,7 @@ To set up and run this project locally or in Google Colab:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/biomedical-text-generation.git
+git clone https://github.com/Ceidass/biomedical-text-generation.git
 cd biomedical-text-generation
 ```
 
