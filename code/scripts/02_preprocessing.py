@@ -17,7 +17,7 @@ for filename in os.listdir(raw_data_dir):
                 entries = json.load(f)
                 all_data.extend(entries)
             except Exception as e:
-                print(f"❌ Error in file {filename}: {e}")
+                print(f"Error in file {filename}: {e}")
 
 print(f"Number of abstracts loaded: {len(all_data)}")
 
@@ -30,6 +30,10 @@ for entry in tqdm(all_data):
 
     # Skip if one of two is missing
     if not title or not abstract:
+        continue
+    
+    # Extra filter to skip "fake" abstracts like "Not available."
+    if abstract.lower() in ["not available.", "no abstract available."] or abstract.lower().startswith("not available"):
         continue
 
     # Cleaning of strange characters

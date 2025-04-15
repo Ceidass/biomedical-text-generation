@@ -18,20 +18,25 @@ The aim is to build a biomedical text generation system using modern Natural Lan
 biomedical-text-generation/
 ├── data/             # Raw and processed datasets
 │   ├── raw/          # Original data from PubMed etc.
+│   │   └── keywords.json # Json files of every keyword
+│   │
 │   ├── cleaned/      # Cleaned and normalized data
+│   │   └── all_abstracts_cleaned.json
+│   │
 │   └── processed/    # Ready-to-use datasets for training
+│       └── abstracts_with_tokens.json
 │
 ├── notebooks/        # Jupyter / Colab notebooks for experimentation
 │   ├── 01_data_collection.ipynb
 │   ├── 02_preprocessing.ipynb
-│   ├── 03_dataset_creation.ipynb
+│   ├── 03_token_stats_and_analysis.ipynb
 │   ├── 04_finetuning.ipynb
 │   └── 05_evaluation.ipynb
 │
 ├── scripts/          # Modular Python scripts
 │   ├── 01_data_collection.py
-│   ├── clean_data.py
-│   ├── build_datasets.py
+│   ├── 02_preprocessing.py
+│   ├── 03_token_stats_and_analysis.py
 │   ├── train_model.py
 │   └── evaluate_model.py
 │
@@ -41,9 +46,11 @@ biomedical-text-generation/
 ├── configs/          # Training configuration files
 │   └── t5_config.yaml
 │
-├── outputs/                          # Generated text, logs, and visualizations
-│   ├── 01_data_collection.txt        # Log file for PubMed data collection
-│   └── evaluation_results/          # Results of final evaluation
+├── outputs/          # Generated text, logs, and visualizations
+│   ├── 01_data_collection.txt              # Log file for PubMed data collection
+│   ├── 02_preprocessing.txt
+│   ├── 03_token_stats_and_analysis.txt
+│   └── evaluation_results/                 # Results of final evaluation
 │
 ├── docs/             # Diagrams, documentation, report sections
 │   └── architecture_diagram.png
