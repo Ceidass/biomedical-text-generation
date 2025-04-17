@@ -34,7 +34,15 @@ biomedical-text-generation/
 │   ├── 02_preprocessing.ipynb
 │   ├── 02b_biomedical_entity_processing.ipynb   # NEW: Entity extraction using SciSpaCy
 │   ├── 03_token_stats_and_analysis.ipynb
-│   ├── 04_finetuning.ipynb
+│   ├── 04_finetuning/
+│   │   ├── text_gen/
+│   │   │
+│   │   ├── summarize/
+│   │   │   ├── bart_fine.ipynb
+│   │   │   └── t5_fine.ipynb
+│   │   │
+│   │   └── QA/
+│   │
 │   └── 05_evaluation.ipynb
 │
 ├── scripts/                       # Modular Python scripts
@@ -42,8 +50,16 @@ biomedical-text-generation/
 │   ├── 02_preprocessing.py
 │   ├── 02b_biomedical_entity_processing.py
 │   ├── 03_token_stats_and_analysis.py
-│   ├── train_model.py
-│   └── evaluate_model.py
+│   ├── 04_finetuning/
+│   │   ├── text_gen/
+│   │   │
+│   │   ├── summarize/
+│   │   │   ├── bart_fine.py
+│   │   │   └── t5_fine.py
+│   │   │
+│   │   └── QA/
+│   │
+│   └── 05_evaluation.py
 │
 ├── models/                        # Fine-tuned models and config files
 │   └── t5_summary_model/
@@ -54,6 +70,7 @@ biomedical-text-generation/
 ├── outputs/                       # Generated text, logs, and visualizations
 │   ├── 01_data_collection.txt
 │   ├── 02_preprocessing.txt
+│   ├── 02b_biomedical_entity_processing.txt
 │   ├── 03_token_stats_and_analysis.txt
 │   └── evaluation_results/
 │
