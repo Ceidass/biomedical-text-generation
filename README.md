@@ -24,6 +24,7 @@ biomedical-text-generation/
 │   │   └── all_abstracts_cleaned.json
 │   │
 │   ├── processed/                 # Tokenized or ready-to-train datasets
+│   │   ├── top_multiword_entities.json
 │   │   └── abstracts_with_tokens.json
 │   │
 │   └── enriched/                  # Abstracts with biomedical entities
@@ -33,7 +34,7 @@ biomedical-text-generation/
 │   ├── 01_data_collection.ipynb
 │   ├── 02_preprocessing.ipynb
 │   ├── 02b_biomedical_entity_processing.ipynb   # NEW: Entity extraction using SciSpaCy
-│   ├── 03_token_stats_and_analysis.ipynb
+│   ├── 03_entity_analysis.ipynb
 │   ├── 04_finetuning/
 │   │   ├── text_gen/
 │   │   │
@@ -49,7 +50,7 @@ biomedical-text-generation/
 │   ├── 01_data_collection.py
 │   ├── 02_preprocessing.py
 │   ├── 02b_biomedical_entity_processing.py
-│   ├── 03_token_stats_and_analysis.py
+│   ├── 03_entity_analysis.py
 │   ├── 04_finetuning/
 │   │   ├── text_gen/
 │   │   │
@@ -71,7 +72,7 @@ biomedical-text-generation/
 │   ├── 01_data_collection.txt
 │   ├── 02_preprocessing.txt
 │   ├── 02b_biomedical_entity_processing.txt
-│   ├── 03_token_stats_and_analysis.txt
+│   ├── 03_entity_analysis.txt
 │   └── evaluation_results/
 │
 ├── docs/                          # Diagrams, documentation, report sections

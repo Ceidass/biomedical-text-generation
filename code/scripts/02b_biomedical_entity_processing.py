@@ -8,7 +8,7 @@ import os
 nlp = en_core_sci_lg.load()
 
 # Load cleaned abstracts (assumed already preprocessed and cleaned)
-with open("/content/drive/MyDrive/biomedical_text_generation/data/cleaned/all_abstracts_cleaned.json", "r", encoding="utf-8") as f:
+with open("../../data/cleaned/all_abstracts_cleaned.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Output number of abstracts loaded
@@ -34,10 +34,10 @@ for entry in tqdm(data):
     enriched_data.append(entry)
 
 # Create the output folder if it doesn't exist
-os.makedirs("/content/drive/MyDrive/biomedical_text_generation/data/enriched", exist_ok=True)
+os.makedirs("../../data/enriched", exist_ok=True)
 
 # Save the enriched data (with extracted biomedical entities) to a JSON file
-with open("/content/drive/MyDrive/biomedical_text_generation/data/enriched/abstracts_with_entities.json", "w", encoding="utf-8") as f:
+with open("../../data/enriched/abstracts_with_entities.json", "w", encoding="utf-8") as f:
     json.dump(enriched_data, f, ensure_ascii=False, indent=2)
 
 # Print confirmation message
