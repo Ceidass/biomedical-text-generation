@@ -16,49 +16,55 @@ The aim is to build a biomedical text generation system using modern Natural Lan
 
 ```
 biomedical-text-generation/
-├── data/             # Raw and processed datasets
-│   ├── raw/          # Original data from PubMed etc.
-│   │   └── keywords.json # Json files of every keyword
+├── data/                          # Raw and processed datasets
+│   ├── raw/                       # Original data from PubMed etc.
+│   │   └── keywords.json          # Json files of every keyword
 │   │
-│   ├── cleaned/      # Cleaned and normalized data
+│   ├── cleaned/                   # Cleaned and normalized data
 │   │   └── all_abstracts_cleaned.json
 │   │
-│   └── processed/    # Ready-to-use datasets for training
-│       └── abstracts_with_tokens.json
+│   ├── processed/                 # Tokenized or ready-to-train datasets
+│   │   └── abstracts_with_tokens.json
+│   │
+│   └── enriched/                  # Abstracts with biomedical entities
+│       └── abstracts_with_entities.json
 │
-├── notebooks/        # Jupyter / Colab notebooks for experimentation
+├── notebooks/                     # Jupyter / Colab notebooks for experimentation
 │   ├── 01_data_collection.ipynb
 │   ├── 02_preprocessing.ipynb
+│   ├── 02b_biomedical_entity_processing.ipynb   # NEW: Entity extraction using SciSpaCy
 │   ├── 03_token_stats_and_analysis.ipynb
 │   ├── 04_finetuning.ipynb
 │   └── 05_evaluation.ipynb
 │
-├── scripts/          # Modular Python scripts
+├── scripts/                       # Modular Python scripts
 │   ├── 01_data_collection.py
 │   ├── 02_preprocessing.py
+│   ├── 02b_biomedical_entity_processing.py
 │   ├── 03_token_stats_and_analysis.py
 │   ├── train_model.py
 │   └── evaluate_model.py
 │
-├── models/           # Fine-tuned models and config files
+├── models/                        # Fine-tuned models and config files
 │   └── t5_summary_model/
 │
-├── configs/          # Training configuration files
+├── configs/                       # Training configuration files
 │   └── t5_config.yaml
 │
-├── outputs/          # Generated text, logs, and visualizations
-│   ├── 01_data_collection.txt              # Log file for PubMed data collection
+├── outputs/                       # Generated text, logs, and visualizations
+│   ├── 01_data_collection.txt
 │   ├── 02_preprocessing.txt
 │   ├── 03_token_stats_and_analysis.txt
-│   └── evaluation_results/                 # Results of final evaluation
+│   └── evaluation_results/
 │
-├── docs/             # Diagrams, documentation, report sections
+├── docs/                          # Diagrams, documentation, report sections
 │   └── architecture_diagram.png
 │
-├── README.md         # This file
-├── requirements.txt  # Python dependencies
-├── .gitignore        # Files and folders to exclude from Git
-└── LICENSE           # Project license
+├── README.md                      # This file
+├── requirements.txt               # Python dependencies
+├── .gitignore                     # Files and folders to exclude from Git
+└── LICENSE                        # Project license
+
 
 ```
 
