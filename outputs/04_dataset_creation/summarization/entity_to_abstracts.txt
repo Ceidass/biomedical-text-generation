@@ -1,0 +1,10 @@
+Total abstracts loaded: 18881
+
+ 	pmid 	title 	entities 	abstract
+0 	40209314 	A novel anti-PD-L1 DNA aptamer, Apta35 enhance... 	[treatment, PDL1, expression, increased, proce... 	The prevalence of Programmed death ligand 1 (P...
+1 	40209305 	Acid-responsive engineered bacteria with aberr... 	[treatment, tumorassociated macrophage, residu... 	Local thermal ablation (TA) can not only reduc...
+2 	40209292 	Molecular targeted maintenance therapy versus ... 	[targeted therapy, treatment, firstline, blood... 	Advanced biliary tract cancers (ABCs) are a he...
+
+Generated 1135218 training pairs.
+
+Saved dataset to entity_to_abstract.jsonl

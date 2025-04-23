@@ -27,16 +27,34 @@ biomedical-text-generation/
 │   │   ├── top_multiword_entities.json
 │   │   └── abstracts_with_tokens.json
 │   │
+│   ├── training/
+│   │   ├── summarization/
+│   │   │   ├── entity_to_abstracts.jsonl
+│   │   │   └── multi_entity_to_abstracts.jsonl
+│   │
 │   └── enriched/                  # Abstracts with biomedical entities
 │       └── abstracts_with_entities.json
 │
 ├── notebooks/                     # Jupyter / Colab notebooks for experimentation
 │   ├── 01_data_collection.ipynb
 │   ├── 02_preprocessing.ipynb
-│   ├── 02b_biomedical_entity_processing.ipynb   # NEW: Entity extraction using SciSpaCy
+│   ├── 02b_biomedical_entity_processing.ipynb   # Entity extraction using SciSpaCy
 │   ├── 03_entity_analysis.ipynb
-│   ├── 04_finetuning/
+│   ├── 04_dataset_creation/
 │   │   ├── text_gen/
+│   │   │
+│   │   │
+│   │   ├── summarize/
+│   │   │   ├── entity_to_abstracts.ipynb
+│   │   │   └── multi_entity_to_abstracts.ipynb
+│   │   │
+│   │   │
+│   │   └── QA/
+│   │
+│   │
+│   ├── 05_finetuning/
+│   │   ├── text_gen/
+│   │   │
 │   │   │
 │   │   ├── summarize/
 │   │   │   ├── bart_fine.ipynb
@@ -44,21 +62,35 @@ biomedical-text-generation/
 │   │   │
 │   │   └── QA/
 │   │
+│   │
 │   └── 05_evaluation.ipynb
 │
 ├── scripts/                       # Modular Python scripts
 │   ├── 01_data_collection.py
 │   ├── 02_preprocessing.py
-│   ├── 02b_biomedical_entity_processing.py
+│   ├── 02b_biomedical_entity_processing.py   # Entity extraction using SciSpaCy
 │   ├── 03_entity_analysis.py
-│   ├── 04_finetuning/
+│   ├── 04_dataset_creation/
 │   │   ├── text_gen/
+│   │   │
+│   │   │
+│   │   ├── summarize/
+│   │   │   ├── entity_to_abstracts.py
+│   │   │   └── multi_entity_to_abstracts.py
+│   │   │
+│   │   └── QA/
+│   │
+│   │
+│   ├── 05_finetuning/
+│   │   ├── text_gen/
+│   │   │
 │   │   │
 │   │   ├── summarize/
 │   │   │   ├── bart_fine.py
 │   │   │   └── t5_fine.py
 │   │   │
 │   │   └── QA/
+│   │
 │   │
 │   └── 05_evaluation.py
 │
@@ -73,7 +105,30 @@ biomedical-text-generation/
 │   ├── 02_preprocessing.txt
 │   ├── 02b_biomedical_entity_processing.txt
 │   ├── 03_entity_analysis.txt
-│   └── evaluation_results/
+│   ├── 04_dataset_creation/
+│   │   ├── text_gen/
+│   │   │
+│   │   │
+│   │   ├── summarize/
+│   │   │   ├── entity_to_abstracts.txt
+│   │   │   └── multi_entity_to_abstracts.txt
+│   │   │
+│   │   │
+│   │   └── QA/
+│   │
+│   │
+│   ├── 05_finetuning/
+│   │   ├── text_gen/
+│   │   │
+│   │   │
+│   │   ├── summarize/
+│   │   │   ├── bart_fine.txt
+│   │   │   └── t5_fine.txt
+│   │   │
+│   │   └── QA/
+│   │
+│   │
+│   └── 05_evaluation.txt
 │
 ├── docs/                          # Diagrams, documentation, report sections
 │   └── architecture_diagram.png
