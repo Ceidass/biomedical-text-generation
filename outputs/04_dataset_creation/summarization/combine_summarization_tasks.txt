@@ -1,0 +1,6 @@
+Total loaded samples (before deduplication): 1154042
+
+Combined dataset saved: /content/drive/MyDrive/biomedical_text_generation/data/training/summarization/combined_deduplicated.jsonl
+
+Unique abstracts (pmids): 13248
+Average prompts per abstract: 60.74
