@@ -29,7 +29,9 @@ biomedical-text-generation/
 │   │
 │   ├── training/
 │   │   ├── summarization/
+│   │   │   ├── combined_summarization.jsonl
 │   │   │   ├── entity_to_abstracts.jsonl
+│   │   │   ├── vanilla_summarization.jsonl
 │   │   │   └── multi_entity_to_abstracts.jsonl
 │   │
 │   └── enriched/                  # Abstracts with biomedical entities
@@ -45,9 +47,10 @@ biomedical-text-generation/
 │   │   │
 │   │   │
 │   │   ├── summarize/
+│   │   │   ├── combine_summarization_tasks.ipynb
 │   │   │   ├── entity_to_abstracts.ipynb
-│   │   │   └── multi_entity_to_abstracts.ipynb
-│   │   │
+│   │   │   ├── multi_entity_to_abstracts.ipynb
+│   │   │   └── vanilla_summarization.ipynb
 │   │   │
 │   │   └── QA/
 │   │
@@ -63,7 +66,7 @@ biomedical-text-generation/
 │   │   └── QA/
 │   │
 │   │
-│   └── 05_evaluation.ipynb
+│   └── 06_evaluation.ipynb
 │
 ├── scripts/                       # Modular Python scripts
 │   ├── 01_data_collection.py
@@ -75,8 +78,10 @@ biomedical-text-generation/
 │   │   │
 │   │   │
 │   │   ├── summarize/
+│   │   │   ├── combine_summarization_tasks.py
 │   │   │   ├── entity_to_abstracts.py
-│   │   │   └── multi_entity_to_abstracts.py
+│   │   │   ├── multi_entity_to_abstracts.py
+│   │   │   └── vanilla_summarization.py
 │   │   │
 │   │   └── QA/
 │   │
@@ -92,7 +97,7 @@ biomedical-text-generation/
 │   │   └── QA/
 │   │
 │   │
-│   └── 05_evaluation.py
+│   └── 06_evaluation.py
 │
 ├── models/                        # Fine-tuned models and config files
 │   └── t5_summary_model/
@@ -110,8 +115,10 @@ biomedical-text-generation/
 │   │   │
 │   │   │
 │   │   ├── summarize/
+│   │   │   ├── combine_summarization_tasks.txt
 │   │   │   ├── entity_to_abstracts.txt
-│   │   │   └── multi_entity_to_abstracts.txt
+│   │   │   ├── multi_entity_to_abstracts.txt
+│   │   │   └── vanilla_summarization.txt
 │   │   │
 │   │   │
 │   │   └── QA/
@@ -128,7 +135,7 @@ biomedical-text-generation/
 │   │   └── QA/
 │   │
 │   │
-│   └── 05_evaluation.txt
+│   └── 06_evaluation.txt
 │
 ├── docs/                          # Diagrams, documentation, report sections
 │   └── architecture_diagram.png

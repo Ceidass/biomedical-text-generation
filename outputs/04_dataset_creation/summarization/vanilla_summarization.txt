@@ -1,0 +1,5 @@
+Total abstracts loaded: 18881
+100%|██████████| 18881/18881 [00:00<00:00, 357488.56it/s]
+
+Total samples in summarization dataset: 18881
+Saved summarization dataset to: /content/drive/MyDrive/biomedical_text_generation/data/training/summarization/vanilla_summarization.jsonl
