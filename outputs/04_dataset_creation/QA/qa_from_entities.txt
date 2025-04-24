@@ -1,0 +1,6 @@
+Loaded 18881 abstracts.
+
+100%|██████████| 18881/18881 [00:00<00:00, 20564.38it/s]
+
+Saved 339662 QA pairs to:
+/content/drive/MyDrive/biomedical_text_generation/data/training/QA/qa_dataset.jsonl

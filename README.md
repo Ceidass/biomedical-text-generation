@@ -33,6 +33,14 @@ biomedical-text-generation/
 │   │   │   ├── entity_to_abstracts.jsonl
 │   │   │   ├── vanilla_summarization.jsonl
 │   │   │   └── multi_entity_to_abstracts.jsonl
+│   │   │
+│   │   ├── text_gen/
+│   │   │   ├── 
+│   │   │   ├── 
+│   │   │   └──
+│   │   │
+│   │   └── QA/
+│   │       └── qa_dataset.jsonl
 │   │
 │   └── enriched/                  # Abstracts with biomedical entities
 │       └── abstracts_with_entities.json
@@ -44,22 +52,24 @@ biomedical-text-generation/
 │   ├── 03_entity_analysis.ipynb
 │   ├── 04_dataset_creation/
 │   │   ├── text_gen/
+│   │   │   ├── 
+│   │   │   ├── 
+│   │   │   └──
 │   │   │
-│   │   │
-│   │   ├── summarize/
+│   │   ├── summarization/
 │   │   │   ├── combine_summarization_tasks.ipynb
 │   │   │   ├── entity_to_abstracts.ipynb
 │   │   │   ├── multi_entity_to_abstracts.ipynb
 │   │   │   └── vanilla_summarization.ipynb
 │   │   │
 │   │   └── QA/
-│   │
+│   │       └── qa_from_entities.ipynb
 │   │
 │   ├── 05_finetuning/
 │   │   ├── text_gen/
 │   │   │
 │   │   │
-│   │   ├── summarize/
+│   │   ├── summarization/
 │   │   │   ├── bart_fine.ipynb
 │   │   │   └── t5_fine.ipynb
 │   │   │
@@ -75,22 +85,24 @@ biomedical-text-generation/
 │   ├── 03_entity_analysis.py
 │   ├── 04_dataset_creation/
 │   │   ├── text_gen/
+│   │   │   ├── 
+│   │   │   ├── 
+│   │   │   └──
 │   │   │
-│   │   │
-│   │   ├── summarize/
+│   │   ├── summarization/
 │   │   │   ├── combine_summarization_tasks.py
 │   │   │   ├── entity_to_abstracts.py
 │   │   │   ├── multi_entity_to_abstracts.py
 │   │   │   └── vanilla_summarization.py
 │   │   │
 │   │   └── QA/
-│   │
+│   │       └── qa_from_entities.py
 │   │
 │   ├── 05_finetuning/
 │   │   ├── text_gen/
 │   │   │
 │   │   │
-│   │   ├── summarize/
+│   │   ├── summarization/
 │   │   │   ├── bart_fine.py
 │   │   │   └── t5_fine.py
 │   │   │
@@ -112,9 +124,11 @@ biomedical-text-generation/
 │   ├── 03_entity_analysis.txt
 │   ├── 04_dataset_creation/
 │   │   ├── text_gen/
+│   │   │   ├── 
+│   │   │   ├── 
+│   │   │   └──
 │   │   │
-│   │   │
-│   │   ├── summarize/
+│   │   ├── summarization/
 │   │   │   ├── combine_summarization_tasks.txt
 │   │   │   ├── entity_to_abstracts.txt
 │   │   │   ├── multi_entity_to_abstracts.txt
@@ -122,13 +136,13 @@ biomedical-text-generation/
 │   │   │
 │   │   │
 │   │   └── QA/
-│   │
+│   │       └── qa_from_entities.txt
 │   │
 │   ├── 05_finetuning/
 │   │   ├── text_gen/
 │   │   │
 │   │   │
-│   │   ├── summarize/
+│   │   ├── summarization/
 │   │   │   ├── bart_fine.txt
 │   │   │   └── t5_fine.txt
 │   │   │
