@@ -1,0 +1,10 @@
+100%|██████████| 20/20 [00:10<00:00,  1.95it/s]
+
+Loaded 20 keyword files.
+
+Final dataset size: 18881
+
+Prepared 18881 prompt-based examples.
+
+Saved 18881 examples to:
+../../../../data/training/text_gen/keyword_to_abstract.jsonl

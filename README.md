@@ -36,8 +36,9 @@ biomedical-text-generation/
 │   │   │
 │   │   ├── text_gen/
 │   │   │   ├── 
-│   │   │   ├── 
-│   │   │   └──
+│   │   │   ├── entity_to_text.jsonl
+│   │   │   ├── multi_entity_to_text.jsonl
+│   │   │   └── keyword_to_text.jsonl
 │   │   │
 │   │   └── QA/
 │   │       └── qa_dataset.jsonl
@@ -53,8 +54,9 @@ biomedical-text-generation/
 │   ├── 04_dataset_creation/
 │   │   ├── text_gen/
 │   │   │   ├── 
-│   │   │   ├── 
-│   │   │   └──
+│   │   │   ├── entity_to_text.ipynb
+│   │   │   ├── multi_entity_to_text.ipynb
+│   │   │   └── keywords_to_text.ipynb
 │   │   │
 │   │   ├── summarization/
 │   │   │   ├── combine_summarization_tasks.ipynb
@@ -86,8 +88,9 @@ biomedical-text-generation/
 │   ├── 04_dataset_creation/
 │   │   ├── text_gen/
 │   │   │   ├── 
-│   │   │   ├── 
-│   │   │   └──
+│   │   │   ├── entity_to_text.py
+│   │   │   ├── multi_entity_to_text.py
+│   │   │   └── keywords_to_text.py
 │   │   │
 │   │   ├── summarization/
 │   │   │   ├── combine_summarization_tasks.py
@@ -125,8 +128,9 @@ biomedical-text-generation/
 │   ├── 04_dataset_creation/
 │   │   ├── text_gen/
 │   │   │   ├── 
-│   │   │   ├── 
-│   │   │   └──
+│   │   │   ├── entity_to_text.txt
+│   │   │   ├── multi_entity_to_text.txt
+│   │   │   └── keywords_to_text.txt
 │   │   │
 │   │   ├── summarization/
 │   │   │   ├── combine_summarization_tasks.txt

@@ -1,0 +1,5 @@
+Loaded 18881 abstracts.
+
+100%|██████████| 18881/18881 [00:00<00:00, 45285.34it/s]
+
+Saved 18824 multi-entity entries to /content/drive/MyDrive/biomedical_text_generation/data/training/text_gen/multi_entity_to_text.jsonl
