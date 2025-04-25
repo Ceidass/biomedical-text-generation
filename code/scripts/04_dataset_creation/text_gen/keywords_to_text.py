@@ -1,11 +1,12 @@
 import os
 import json
+import jsonlines
 from tqdm import tqdm
 from collections import defaultdict
 
 
 # Define the raw folder path
-raw_folder_path = "/content/drive/MyDrive/biomedical_text_generation/data/raw/"
+raw_folder_path = "../../../../data/raw/"
 
 # List all JSON files in the raw folder
 raw_files = [f for f in os.listdir(raw_folder_path) if f.endswith(".json")]

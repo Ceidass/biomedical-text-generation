@@ -1,0 +1,8 @@
+Loaded 13262 enriched abstracts.
+
+Found 20 keyword files.
+
+100%|██████████| 20/20 [00:15<00:00,  1.31it/s]
+
+Saved 18867 samples to:
+/content/drive/MyDrive/biomedical_text_generation/data/training/text_gen/keywords_entities_to_text.jsonl

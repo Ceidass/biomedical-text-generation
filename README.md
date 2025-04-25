@@ -35,10 +35,12 @@ biomedical-text-generation/
 │   │   │   └── multi_entity_to_abstracts.jsonl
 │   │   │
 │   │   ├── text_gen/
-│   │   │   ├── 
+│   │   │   ├── combined_text_gen.jsonl
+│   │   │   ├── keywords_entities_to_text.jsonl
 │   │   │   ├── entity_to_text.jsonl
 │   │   │   ├── multi_entity_to_text.jsonl
-│   │   │   └── keyword_to_text.jsonl
+│   │   │   ├── multi_keywords_to_text.jsonl
+│   │   │   └── keywords_to_text.jsonl
 │   │   │
 │   │   └── QA/
 │   │       └── qa_dataset.jsonl
@@ -53,9 +55,11 @@ biomedical-text-generation/
 │   ├── 03_entity_analysis.ipynb
 │   ├── 04_dataset_creation/
 │   │   ├── text_gen/
-│   │   │   ├── 
+│   │   │   ├── combined_text_gen.ipynb
+│   │   │   ├── key_ent_to_text.ipynb
 │   │   │   ├── entity_to_text.ipynb
 │   │   │   ├── multi_entity_to_text.ipynb
+│   │   │   ├── multi_keywords_to_text.ipynb
 │   │   │   └── keywords_to_text.ipynb
 │   │   │
 │   │   ├── summarization/
@@ -87,9 +91,11 @@ biomedical-text-generation/
 │   ├── 03_entity_analysis.py
 │   ├── 04_dataset_creation/
 │   │   ├── text_gen/
-│   │   │   ├── 
+│   │   │   ├── combined_text_gen.py
+│   │   │   ├── key_ent_to_text.py
 │   │   │   ├── entity_to_text.py
 │   │   │   ├── multi_entity_to_text.py
+│   │   │   ├── multi_keywords_to_text.py
 │   │   │   └── keywords_to_text.py
 │   │   │
 │   │   ├── summarization/
@@ -127,9 +133,11 @@ biomedical-text-generation/
 │   ├── 03_entity_analysis.txt
 │   ├── 04_dataset_creation/
 │   │   ├── text_gen/
-│   │   │   ├── 
+│   │   │   ├── combined_text_gen.txt
+│   │   │   ├── key_ent_to_text.txt
 │   │   │   ├── entity_to_text.txt
 │   │   │   ├── multi_entity_to_text.txt
+│   │   │   ├── multi_keywords_to_text.txt
 │   │   │   └── keywords_to_text.txt
 │   │   │
 │   │   ├── summarization/

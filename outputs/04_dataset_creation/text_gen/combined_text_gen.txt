@@ -1,0 +1,6 @@
+Total entries before deduplication: 405540
+
+Entries after deduplication: 290860
+
+Combined dataset saved to:
+/content/drive/MyDrive/biomedical_text_generation/data/training/text_gen/combined_text_gen.jsonl

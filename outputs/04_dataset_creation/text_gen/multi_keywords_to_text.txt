@@ -1,0 +1,14 @@
+Found 20 raw files.
+
+100%|██████████| 20/20 [00:08<00:00,  2.34it/s]
+
+Collected keywords for 13274 abstracts.
+
+Loaded 18881 enriched abstracts.
+
+100%|██████████| 18881/18881 [00:00<00:00, 470897.13it/s]
+
+Prepared 9306 examples with multiple keywords.
+
+Saved multi-keyword dataset with 9306 entries to:
+/content/drive/MyDrive/biomedical_text_generation/data/training/text_gen/multi_keyword_to_text.jsonl
