@@ -52,7 +52,8 @@ biomedical-text-generation/
 │   ├── 01_data_collection.ipynb
 │   ├── 02_preprocessing.ipynb
 │   ├── 02b_biomedical_entity_processing.ipynb   # Entity extraction using SciSpaCy
-│   ├── 03_entity_analysis.ipynb
+│   ├── 02c_text_reduction.ipynb    # Abstract reduction using YAKE
+│   ├── 03_analysis.ipynb
 │   ├── 04_dataset_creation/
 │   │   ├── text_gen/
 │   │   │   ├── combined_text_gen.ipynb
@@ -88,7 +89,8 @@ biomedical-text-generation/
 │   ├── 01_data_collection.py
 │   ├── 02_preprocessing.py
 │   ├── 02b_biomedical_entity_processing.py   # Entity extraction using SciSpaCy
-│   ├── 03_entity_analysis.py
+│   ├── 02c_text_reduction.py           # Abstract reduction using YAKE
+│   ├── 03_analysis.py
 │   ├── 04_dataset_creation/
 │   │   ├── text_gen/
 │   │   │   ├── combined_text_gen.py
@@ -130,7 +132,8 @@ biomedical-text-generation/
 │   ├── 01_data_collection.txt
 │   ├── 02_preprocessing.txt
 │   ├── 02b_biomedical_entity_processing.txt
-│   ├── 03_entity_analysis.txt
+│   ├── 02c_text_reduction.txt
+│   ├── 03_analysis.txt
 │   ├── 04_dataset_creation/
 │   │   ├── text_gen/
 │   │   │   ├── combined_text_gen.txt
